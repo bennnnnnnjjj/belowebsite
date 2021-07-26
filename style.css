@@ -1,0 +1,69 @@
+/*-B padding en margin voor hele css, dit was gedaan om de hero image de pagina te laten vullen */
+*{
+margin: 0;
+padding: 0;
+}
+
+body, html {
+    height: 100%;
+    background: black;
+}
+ 
+
+ .hero-image {
+
+   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photos/belo stage BW.jpg");
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ 
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/*-B top hypers = menu buttons layout */
+#div_top_hypers {
+    display:inline;      
+}
+#ul_top_hypers li{
+    display: inline-block;
+    margin: 10px;
+}
+
+
+
+/*references style layout*/
+
+ p {color: rgb(255, 255, 255);
+ display: inline-block;}
+ 
+
+  
+  h1{ color: rgb(255, 255, 255);
+  display: inline-block;}
+
+
+ul{
+    display: inline-block;
+    color: white;
+   }
+   #ul_top_hypers li {
+    display: inline;
+}
+
+   a {
+    color: rgb(255, 255, 255);
+    display: inline-block;}
+  
